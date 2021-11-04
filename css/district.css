@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    width:5%;
+    height: 5%;
+}
+
+  
+.navbar-nav .nav-item .nav-link{
+  color: white;
+}
+   .nav-item{
+       font-size: 24px;
+       font-weight:4em;
+   }
+   .top-portion{
+    background-color: #0005;
+}
+  
+body{
+        
+    background-image:linear-gradient(rgba(5, 5, 5, 0.089),rgba(0, 0, 0, 0.959)),url('../images/background.jpg');
+        height: 100vh;
+        object-fit: cover;
+        background-size: cover;
+     
+    } 
+    .kannur {
+     color: white;
+     text-align: justify;
+     background-color: black;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-indent: 50px;
+    }
+    .d-md-block{
+        background-color: #0008;
+        /* text-align: justify; */
+    }
+    .carousel-item{
+        height: 400px;
+        /* width: */
+    }
+    .carousel-inner img{
+        /* object-fit:contain; */
+    
+    height: 500px;
+    width: 1349px;
+    border: 8px solid goldenrod;
+        
+    }
+    .kannur h2{
+        text-align: center;
+        color: goldenrod;
+        text-decoration: underline;
+    }
+    .fab{
+        color:black;
+        margin-left: 5px;
+        font-size: 20px;
+       }
+       .footercont{
+           background: #fff;
+           text-align: center;
+    
+       }
+       .footercont p{
+           font-size: 11px;
+       }
+      

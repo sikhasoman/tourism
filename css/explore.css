@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    
+        background-image:linear-gradient(rgba(5, 5, 5, 0.089),rgba(0, 0, 0, 0.959)),url('../images/background.jpg');
+        height: 100vh;
+        object-fit: cover;
+        background-size: cover
+     
+    }
+
+    .logo{
+        width:5%;
+        height: 5%;
+    }
+    .margin{
+        margin-top: 2%;
+        margin-left: 8%;
+        margin-right: 8%;
+        text-align: center;
+        /* background-color: rgb(199, 199, 199); */
+        background-color: rgb(51, 51, 90);
+    
+       }
+       .navbar-nav .nav-item .nav-link{
+        color: white;
+    }
+       .nav-item{
+           font-size: 24px;
+           font-weight:4em;
+       }
+    /* .header{
+       background-color:gray;
+    } */
+    .top-portion{
+        /* background-color: rgb(241, 244, 247); */
+        background-color: #0005;
+        /* background: transparent; */
+    }
+    a:hover{
+        background: linear-gradient(rgba(17, 155, 40, 0.959),rgba(163, 212, 178, 0.089));
+    }
+
+    .card
+    {
+        width:100%;
+    
+    }
+    .card-deck{
+        display: grid;
+        grid-template-columns:repeat(7, 1fr);
+        grid-gap:10px;
+    
+    }
+    
+    .apara{
+    /* text-align: center; */
+    margin-top: 40px;
+    margin-left: 4%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    }
+    .apara h2{
+        color: goldenrod;
+        text-decoration: underline white;
+        text-align: center;
+    }
+    /* .apara{
+        text-align: justify;
+    } */
+    
+    .cardlink{
+    text-decoration:none;
+    color:black;
+    }
+    
+    .fab{
+        color:black;
+        margin-left: 5px;
+        font-size: 20px;
+       }
+       .footercont{
+           background: #fff;
+           text-align: center;
+    
+       }
+       .footercont p{
+           font-size: 11px;
+       }
