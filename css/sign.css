@@ -57,7 +57,7 @@
 display: flex;
 color: white;
 flex-wrap: wrap;
-margin: 6%;
+margin: 3%;
 justify-content: space-between;
  }
  .input-box{
@@ -67,12 +67,12 @@ justify-content: space-between;
  }
  .input-box input{
      height:80%;
-     width:100%;
+     width:96%;
      outline: none;
      border-radius: 5px;
      border:1px solid gray;
-     font-size: 16px;
-     padding-left: 15px;
+     font-size: 12px;
+     padding-left: 10px;
      border-bottom-width: 2px;
      transition: all 0.3s ease;
  }

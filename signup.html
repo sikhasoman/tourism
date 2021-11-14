@@ -51,36 +51,40 @@
     <div class="type">
         Registration
     </div>
-    <form action="#">
+    <form action="Login.html" onsubmit="return signupvalidate()">
         <div class="user-details">
             <div class="input-box">
-                <span class="details">full name</span>
-                <input type="text" placeholder="enter your name" required>
+                <span class="details">First name</span>
+                <input type="text" placeholder="enter your first name" id="fname"required>
             </div>
             <div class="input-box">
-                    <span class="details">User name</span>
-                    <input type="text" placeholder="enter username" required>
+                    <span class="details">Last name</span>
+                    <input type="text" placeholder="enter lastname" id="lname" required>
                 </div>
                 <div class="input-box">
                         <span class="details">Email Id</span>
-                        <input type="text" placeholder="enter email-id" required>
+                        <input type="text" placeholder="enter email-id" id="email" required>
+                        <label for="email" id="error"></label>
                     </div>
                     <div class="input-box">
                             <span class="details">Phone number</span>
-                            <input type="text" placeholder="enter phonenumber" required>
+                            <input type="text" placeholder="enter phonenumber" id="pnumber" required>
+                            <label for="phone" id="pnumerror"></label>
                         </div>
-                        <div class="input-box">
+                        <di class="input-box">
                                 <span class="details">Password</span>
-                                <input type="text" placeholder="enter your Password" required>
+                            <input type="password" placeholder="enter your Password" id="psw" required>
+                            <label for="password" id="pderror"></label>
                             </div>
                             <div class="input-box">
                                     <span class="details">Confirm Password</span>
-                                    <input type="text" placeholder="confirm your Password" required>
+                                    <input type="password" placeholder="confirm your Password" id="cpsw" required>
+                                    <!-- <label for="confirmpassword" id="cmpderror"></label><br> -->
                                 </div>
-        </div>
+                            </div>
         
         <div class="button">
-            <input type="submit" value="Register">
+            <input type="submit" value="Register" id="btn">
         </div>
     </form>
 </div>
@@ -95,6 +99,7 @@
   
     <p> Copyright@2021</p>
   
-    </footer>   
+    </footer> 
+    <script src="signup.js"></script>  
 </body>
 </html>
