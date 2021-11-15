@@ -1,4 +1,4 @@
-// var psw = document.getElementById("psw").value;
+
 
 // main function
 function signupvalidate()
@@ -69,22 +69,22 @@ return  passwordvalidation();
         }
 //  function for confirming password
 
-function checkpassword()
-{
-    var cpsw = document.getElementById("cpsw").value;
-    var cmpderror = document.getElementById("cmpderror");
-    // var psw = document.getElementById("psw").value;
-    console.log(cpsw,psw);
+// function checkpassword()
+// {
+//     var cpsw = document.getElementById("cpsw").value;
+//     var cmpderror = document.getElementById("cmpderror");
+//     // var psw = document.getElementById("psw").value;
+//     console.log(cpsw,psw);
 
-    if(psw==cpsw)
-    {
-        cmpderror.innerHTML="match";
-    }
-    else
-        {
-          cmpderror.innerHTML="dosen't match";
-        }
+//     if(psw==cpsw)
+//     {
+//         cmpderror.innerHTML="match";
+//     }
+//     else
+//         {
+//           cmpderror.innerHTML="dosen't match";
+//         }
           
-    }
+//     }
 
    
